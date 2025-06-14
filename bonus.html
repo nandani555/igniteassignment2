@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .loader {
+  width: 80px;
+  height: 80px;
+  border: 8px solid #efeeeb; 
+  border-top: 8px solid #3f75bc; 
+  border-radius: 50%;
+  animation: spin 2s linear infinite; 
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.flexe{
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  height:150px ;
+  gap: 10px;
+  border: 2px solid #2baecb;
+  margin: 10px;
+  padding: 10px;
+}
+.layout{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: grey;
+  color: black;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: bold;
+
+}
+
+    </style>
+</head>
+<body>
+    <h3>bonus animation challenge</h3>
+<div class="loader"></div>
+    <h3>bonus flexbox</h3>
+    <div class="flexe">
+        <div class="layout">A</div>
+        <div class="layout">B</div>
+        <div class="layout">C</div>
+        <div class="layout">D</div>
+        <div class="layout">E</div>
+        <div class="layout">F</div>
+        <div class="layout">G</div>
+        <div class="layout">H</div>
+        <div class="layout">I</div>
+    </div>
+</body>
+</html>

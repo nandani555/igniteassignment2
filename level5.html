@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>.responsive-box {
+      width: 100%;
+      height: 200px;
+      background-color: green; /* Default color for width < 300px */
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 400px) {
+      .responsive-box {
+        background-color: pink;
+      }
+    }
+
+    @media screen and (min-width: 401px) and (max-width: 600px) {
+      .responsive-box {
+        background-color: red;
+      }
+    }
+
+    @media screen and (min-width: 601px) {
+      .responsive-box {
+        background-color: blue;
+      }
+    }</style>
+</head>
+<body>
+    
+<h3>level 5</h3>
+<div class="responsive-box"> i am a responsive-box</div>
+</body>
+</html>

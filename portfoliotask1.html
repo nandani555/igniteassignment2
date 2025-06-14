@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+
+}
+header {
+  background-color: #8fc7e9;
+  color: #070101;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+nav h1 {
+  font-size: 22px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #05090a;
+  text-decoration: none;
+}
+
+main {
+  width: 80%;
+  margin: 25px auto;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  
+  border-radius: 50%;
+  margin-right: 10px
+}
+
+.skills ul {
+  list-style:circle;
+  margin-left: 20px;
+}
+
+#education table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#education th, #education td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+#contact a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #8fc7e9;
+  color: #0c0c0c;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Nandani Pandey</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <img class="profile" src="profile.jpg" alt="Profile Picture" />
+      <p>Hello,I am Nandani Pandey a passionate web developer and a coding enthusiast.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Java</li>
+        <li>C</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>B.Tech in Computer Science</td>
+          <td>KNIT SULTANPUR</td>
+          <td>2028</td>
+        </tr>
+        <tr>
+          <td>High School</td>
+          <td>Stepping Stone Inter College,Gorakhpur</td>
+          <td>2021</td>
+        </tr>
+        <tr>
+          <td>Intermediate</td>
+          <td>Stepping Stone Inter College,Gorakhpur</td>
+          <td>2023</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: pandeynandani@gmail.com</p>
+      <p>Phone: +91-1234567890</p>
+      <p>
+        <a href="www.linkedin.com/in/nandani-pandey-34141532a" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/nandani555" target="_blank">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nandani Pandey. All rights reserved.</p>
+  </footer>
+</body>
+</html>
